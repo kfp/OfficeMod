@@ -1,31 +1,17 @@
-/bin/*
-/conf/*
-docs/*
-eclipse/*
-forge/*
-jars/*
-lib/*
-logs/*
-modsrc/*
-reobf/*
-runtime/*
-temp/*
+*.class
 
-src/minecraft_server/*
-src/common/*
+# Package Files #
+*.jar
+*.war
+*.ear
 
-!src/minecraft/
-
-src/minecraft/*
-!src/minecraft/mcmod.info
-!src/minecraft/SP.png
-
-!src/minecraft/com/
-
-src/minecraft/com/*
-!src/minecraft/com/sperlazzasaurus/
-
-
-*.bat
-*.sh
-.gitignore~
+/cpw
+/ibxm
+/net
+/paulscode
+*.cfg
+fmlversion.properties
+forge_logo.png
+mcp.png
+mcpmod.info
+Start.java
